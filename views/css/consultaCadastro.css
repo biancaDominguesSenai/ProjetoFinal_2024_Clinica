@@ -9,16 +9,9 @@
  /* ----------------------------------------------------------------------------------------------------*/
  
  body {
-    background-color: #EFEFEF;
+    background-color: #F9F9F9;
     font-family: 'PT Sans';
 }
 
 /* ----------------------------------------------------------------------------------------------------*/
 
-.col-sm{
-    opacity: 60%;
-    background-color: #c8c8c8;
-    height: 500px;
-    display: flex;
-    justify-content: center; 
-}
