@@ -1,0 +1,7 @@
+body{
+    background-color: #efefef;
+}
+
+.card-header:first-child{
+    color: aqua;
+}

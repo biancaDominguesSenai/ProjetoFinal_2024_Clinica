@@ -1,0 +1,159 @@
+.hover-zoom {
+    transition: transform 0.3s;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+ /* ----------------------------------------------------------------------------------------------------*/
+
+ body {
+    background-color: #EFEFEF;
+    font-family: 'PT Sans';
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+
+.col-md-7{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.row .col-md-5{
+    display: flex;
+    flex-flow: column;
+    height: 800px;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    text-align: center;
+}
+
+.botoes{
+    width: 225px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 220px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #b87bf4;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #7f51a4;
+    color: #EFEFEF;
+}
+
+.minha-div {
+    display: none;
+    background-color: #898989;
+    color: #fff;
+    width: 180px;
+    height: 90px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 300px;
+    text-align: center;
+    position: absolute;
+}
+
+#ajuda{
+    width: 20px;
+    height: 20px;
+}
+
+.ajuda{
+    width: 50px;
+    margin: 15px;
+    margin-top: 40px;
+}
+
+
+.voltar{
+    width: 50px;
+    margin: 15px;
+    border: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+
+#bola1{
+    background-color: #7f51a4;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 10px;
+    margin-left: 500px;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    transform: rotate(360deg);
+    position: absolute;
+}
+#bola2{
+    background-color: #b87bf4;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    top: -100px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+
+.footer{
+    background-color: #EFEFEF;
+    height: 300px;
+    padding: 30px;
+}
+
+.footer .logo {
+    font-size: 15px;
+    font-family: 'DM Serif Display';
+    color: #606060;
+    text-align: center;
+}
+
+.footer .col h2{
+    font-size: 20px;
+    font-family: 'DM Serif Display';
+    color: #515151;
+}
+
+.footer .col a{
+    font-size: 15px;
+    font-family: 'DM Serif Display';
+    color: #515151;
+    text-align: start;
+    text-decoration: none;
+}
+
+.footer .col p{
+    font-size: 15px;
+    font-family: 'DM Serif Display';
+    color: #515151;
+    text-align: start;
+    text-decoration: none;
+}
+
+.contatos ul li{
+    padding: 10px;
+}
